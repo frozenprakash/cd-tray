@@ -40,10 +40,10 @@ Exit codes: `0` success, `1` bad arguments, `2` no optical drive, `3` drive/MCI 
 Requires the .NET SDK and the .NET Framework 4.8 targeting pack (included with Visual Studio / Windows).
 
 ```
-dotnet build CD_Tray.sln -c Release
+dotnet build cd-tray.sln -c Release
 ```
 
-The executable is written to `src/CD_Tray/bin/Release/net48/tray.exe`.
+The executable is written to `src/cd-tray/bin/Release/net48/tray.exe`.
 
 ## How it works
 
