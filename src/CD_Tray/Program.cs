@@ -7,7 +7,7 @@ namespace CD_Tray
     {
         private const string Usage =
             "CD Tray - open or close the optical drive tray.\n\n" +
-            "Usage: CD_Tray [command] [drive:]\n\n" +
+            "Usage: tray [command] [drive:]\n\n" +
             "  (none)    Open the tray, wait 1 second, then close it\n" +
             "  <n>       Open the tray, wait n seconds, then close it\n" +
             "  o         Open the tray\n" +

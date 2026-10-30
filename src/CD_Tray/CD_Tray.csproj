@@ -4,7 +4,7 @@
     <OutputType>WinExe</OutputType>
     <TargetFramework>net48</TargetFramework>
     <RootNamespace>CD_Tray</RootNamespace>
-    <AssemblyName>CD_Tray</AssemblyName>
+    <AssemblyName>tray</AssemblyName>
     <ApplicationIcon>HP-CCleaner.ico</ApplicationIcon>
     <UseWindowsForms>true</UseWindowsForms>
     <LangVersion>latest</LangVersion>

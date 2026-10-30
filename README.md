@@ -7,7 +7,7 @@ It has no visible window and exits as soon as the tray command is sent.
 ## Usage
 
 ```
-CD_Tray [command] [drive:]
+tray [command] [drive:]
 ```
 
 | Command   | Effect                                              |
@@ -23,15 +23,15 @@ An optional drive letter (`E:` or `E`) selects a specific drive; otherwise the f
 ### Examples
 
 ```
-CD_Tray          :: open, then close after 1 second
-CD_Tray 5        :: open, close after 5 seconds
-CD_Tray o        :: open
-CD_Tray c E:     :: close the tray of drive E:
+tray          :: open, then close after 1 second
+tray 5        :: open, close after 5 seconds
+tray o        :: open
+tray c E:     :: close the tray of drive E:
 ```
 
 ### Run from `Win+R`
 
-Copy `CD_Tray.exe` to a folder on your `PATH` (for example `C:\Windows`, or add your own folder to `PATH`) and type `cd_tray o` in the Run dialog. To get a shorter command, rename the file (e.g. `cd.exe`).
+Copy `tray.exe` to a folder on your `PATH` (for example `C:\Windows`, or add your own folder to `PATH`) and type `tray o` in the Run dialog.
 
 Exit codes: `0` success, `1` bad arguments, `2` no optical drive, `3` drive/MCI error.
 
@@ -43,7 +43,7 @@ Requires the .NET SDK and the .NET Framework 4.8 targeting pack (included with V
 dotnet build CD_Tray.sln -c Release
 ```
 
-The executable is written to `src/CD_Tray/bin/Release/net48/CD_Tray.exe`.
+The executable is written to `src/CD_Tray/bin/Release/net48/tray.exe`.
 
 ## How it works
 
