@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net48</TargetFramework>
+    <RootNamespace>CD_Tray</RootNamespace>
+    <AssemblyName>CD_Tray</AssemblyName>
+    <ApplicationIcon>HP-CCleaner.ico</ApplicationIcon>
+    <UseWindowsForms>true</UseWindowsForms>
+    <LangVersion>latest</LangVersion>
+    <Nullable>disable</Nullable>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <Prefer32Bit>false</Prefer32Bit>
+
+    <Version>2.0.0</Version>
+    <Product>CD Tray</Product>
+    <Description>Open or close the CD/DVD tray from the Run dialog or a command line.</Description>
+    <Company>Frozen Incorporation</Company>
+    <Copyright>Copyright © 2022</Copyright>
+  </PropertyGroup>
+
+</Project>
