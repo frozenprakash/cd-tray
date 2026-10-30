@@ -13,10 +13,10 @@
     <Prefer32Bit>false</Prefer32Bit>
 
     <Version>2.0.0</Version>
+    <Authors>Prakash</Authors>
     <Product>CD Tray</Product>
     <Description>Open or close the CD/DVD tray from the Run dialog or a command line.</Description>
-    <Company>Frozen Incorporation</Company>
-    <Copyright>Copyright © 2022</Copyright>
+    <Copyright>Copyright © 2022 Prakash</Copyright>
   </PropertyGroup>
 
 </Project>
