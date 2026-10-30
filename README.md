@@ -48,3 +48,7 @@ The executable is written to `src/CD_Tray/bin/Release/net48/CD_Tray.exe`.
 ## How it works
 
 The tray is controlled through the Windows Multimedia (MCI) API in `winmm.dll`: the drive is opened as a `CDAudio` device and sent `set <alias> door open` / `door closed`.
+
+## License
+
+[MIT](LICENSE)
